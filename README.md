@@ -3,7 +3,9 @@ A Website based, Bus Reservation System. it includes Html, CSS, JavaScript With 
 
 ## Tech & Languages
 > HTML , CSS , JS
+
 > PHP
+
 > MYSQL database
 
 Need Some Small tweaks To Increase UI/Ux.
