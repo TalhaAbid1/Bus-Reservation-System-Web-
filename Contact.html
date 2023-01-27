@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Alpha Express-Login
+  </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/Style1.css">
+</head>
+<link rel="shortcut icon" type="image/png" href="res/logo1.png">
+<body onload="myword()">
+  <div id="loader"></div>
+
+<body>
+<nav class="navbar navbar-expand-lg  bg-success">
+    <a class="navbar-brand text-light" href="index.php"><img class="logo" src="res/logo.png"></a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="true">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id="navb" class="navbar-collapse collapse hide">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-item nav-link text-light" href="index.php">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link text-light" href="Contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link text-light" href="About.html">About Us</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-item nav-link text-light" href="sign-up.php"><i class="fa fa-user" aria-hidden="true"></i> Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link text-light" href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>  Login</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+  <h1>Contact Us</h1>
+  <ul>
+    <li> 
+      <h3><i class="fa fa-location-arrow" aria-hidden="true"></i> Address</h3>
+      <p>ABC-EFG-XYZ</p>
+    </li>
+    <li> 
+      <h3><i class="fa fa-phone" aria-hidden="true"></i> Phone</h3>
+      <p>Mobile: 03XX-XXXXXXX</p>
+    </li>
+    <li> 
+      <h3><i class="fa fa-envelope" aria-hidden="true"></i> Email</h3>
+      <p>contact@123.pk</p>
+    </li>
+  </ul>
+</div>
+<div class="col-md-8">
+    <h1>Send us a Message</h1>
+    <form class="bg" method="" action="">
+      <div class="form-row">
+        <div class="col-md-6">
+          <label>Your Name:</label>
+          <input type="text" class="form-control" name=""  placeholder="Enter Name"><br>
+        </div>
+        <div class="col-md-6">
+          <label>Email:</label>
+          <input type="email" class="form-control" name="" placeholder="Enter Email"><br>
+        </div>
+      </div>
+      <label>Your Message:</label><br>
+      <textarea class="form-control" rows="7" id = "comment" placeholder="Write Text Here"></textarea>      
+      <br>
+      <button class="btn btn-primary w-25" name="submit" >Submit</button>
+      </div>
+      </form>
+</div>
+</div>
+</div>
+<footer class="bg-success">
+  <h5>All Rights Reserved 2021 &copy;</h5>
+</footer>
+<script> 
+  var preload = document.getElementById("loader");
+  function myword()
+  {
+    preload.style.display='none';
+  }
+</script>
+
+</body>
+</html>
